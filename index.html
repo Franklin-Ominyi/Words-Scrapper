@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta author="Franklin Alegu"/>
+		<meta name="robots"/>
+		<meta name="googlebot"/>
+		<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Words Scrapper | Developed by Franklin Alegu</title>
+ </head>
+ <body>
+		<!-- Navbar -->
+  <nav>
+   <div class="max-width">
+    <div class="left-content">
+     <h2 id="header-title">Words Scrapper</h2>
+    </div>
+   </div>
+  </nav>
+
+		<!-- Main -->
+  <main class="max-width">
+   <section id="left-section">
+    <div>
+     <textarea rows="5" placeholder="Words..." id="words"></textarea>
+    </div>
+    <div>
+     <textarea rows="3" placeholder="Scrap" id="scrap"></textarea>
+    </div>
+    <div>
+     <input type="text" placeholder="Replace with" id="replace-with" />
+    </div>
+    <div>
+     <button id="btn">Scrap Words</button>
+    </div>
+   </section>
+   <section id="right-section">
+    <div>
+     <textarea
+      rows="5"
+      id="result"
+      placeholder="Scrapped Words"
+      readonly
+     ></textarea>
+    </div>
+
+    <div id="copy-btn-container">
+     <div>
+      <p id="lengthOfScrappedWords"></p>
+     </div>
+     <div><button id="copyBtn">Copy</button></div>
+    </div>
+   </section>
+  </main>
+		
+		<!-- Footer -->
+  <footer>&copy; <span id="year"></span>  All Rights Reserved | Developed by <a href="https://franklinominyiresume.netlify.com" target="_blank" >Chitech<span></footer>
+  <script src="js/script.js"></script>
+ </body>
+</html>
