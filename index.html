@@ -7,17 +7,23 @@
 		<meta author="Franklin Alegu"/>
 		<meta name="robots"/>
 		<meta name="googlebot"/>
+		<meta name="description" content="Scramble some words from a body of text content"/>
 		<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css" />
-  <title>Words Scrapper | Developed by Franklin Alegu</title>
+  <title>Redactr  | Developed by Franklin Alegu</title>
  </head>
  <body>
 		<!-- Navbar -->
   <nav>
    <div class="max-width">
     <div class="left-content">
-     <h2 id="header-title">Words Scrapper</h2>
+     <h2 id="nav-title">Redactr </h2>
     </div>
+				<div class="right-content">
+					<a href="https://altschoolafrica.com/" target="_blank">
+					<img src="/img/altschoolLogo.svg" alt="Altschool">
+				</a>
+				</div>
    </div>
   </nav>
 
@@ -28,36 +34,40 @@
      <textarea rows="5" placeholder="Words..." id="words"></textarea>
     </div>
     <div>
-     <textarea rows="3" placeholder="Scrap" id="scrap"></textarea>
+     <textarea rows="3" placeholder="Scramble" id="scramble"></textarea>
     </div>
     <div>
      <input type="text" placeholder="Replace with" id="replace-with" />
     </div>
     <div>
-     <button id="btn">Scrap Words</button>
+     <button id="btn" class="disabled" >Redact Now</button>
     </div>
    </section>
    <section id="right-section">
     <div>
      <textarea
       rows="5"
-      id="result"
-      placeholder="Scrapped Words"
+      id="output"
+      placeholder="Scrambled Words"
       readonly
      ></textarea>
     </div>
 
-    <div id="copy-btn-container">
+    <div id="stats-container">
      <div>
-      <p id="lengthOfScrappedWords"></p>
-     </div>
-     <div><button id="copyBtn">Copy</button></div>
+     <div class="stats"></div>
+					<div class="stats"></div>
+					<div class="stats"></div>
+					<div class="stats"></div>
+					
+					</div>
+     <div><button id="copyBtn" class="disabled">Copy</button></div>
     </div>
    </section>
   </main>
 		
 		<!-- Footer -->
-  <footer>&copy; <span id="year"></span>  All Rights Reserved | Developed by <a href="https://franklinominyiresume.netlify.com" target="_blank" >Chitech<span></footer>
+  <footer>&copy; <span id="year"></span>  All Rights Reserved | Developed by <a href="https://altschoolafrica.com/" target="_blank" >Altschool Scholar<span></footer>
   <script src="js/script.js"></script>
  </body>
 </html>
