@@ -170,7 +170,7 @@ footer {
 /* Media Query */
 @media screen and (max-width: 780px) {
  body {
-  padding-bottom: 120px;
+  padding-bottom: 140px;
  }
  nav {
   padding: 10px 0;
